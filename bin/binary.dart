@@ -6,9 +6,9 @@ void binary() {
   int r, bin = 0, m = 1;
   
   if (a == 0) {
-    print("binary equelent of zzero");
+    print("binary equelent of zero");
   }
-  while (a != 0) {
+  while (a!= 0) { 
     r = a % 2;
     bin = bin + (r * m);
     m = m * 10;

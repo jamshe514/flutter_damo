@@ -15,15 +15,18 @@
 //import 'reverselist.dart';
 //import 'email.dart';
 //import 'swaplist.dart';
-import 'binary.dart';
+//import 'binary.dart';
+//import 'person.dart';
+import 'Rectancle.dart';
 
 void main() {
   //email();
   //check();
   // swtch();
-  //swap();
-  binary();
-
+  //swap()n
+  //binary();
+  // print(pali(121));
+  // pali();
   // fibo();
   //leap();
   //check();
@@ -33,4 +36,9 @@ void main() {
   //gcd2();
 //amstrong();
   // fact();
+//Person obj1 = Person();
+  //obj1.printDetails();
+  Rectangle ob = Rectangle();
+ print( ob.calculateArea());
+print(ob.calculatePerimeter())  ;
 }
